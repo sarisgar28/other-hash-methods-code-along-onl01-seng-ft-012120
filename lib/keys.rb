@@ -10,6 +10,9 @@ require 'pry'
 
 def get_the_keys("fruit","vegetable", "dessert")
   groceries.keys 
-  @fruit = ("banana")
-  @vegetable=
+  @fruit = "banana"
+  @vegetable = "broccoli"
+  @dessert = "cookie"
+  # => [:fruit, :vegetable, :dessert]
+binding.pry
 end
